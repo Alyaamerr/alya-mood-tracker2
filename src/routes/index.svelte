@@ -1,6 +1,6 @@
 <script>
     import supabase from '$lib/db';
-
+  
     async function logout() {
    	 const { error } = await supabase.auth.signOut();
 
