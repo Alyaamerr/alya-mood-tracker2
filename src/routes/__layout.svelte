@@ -1,5 +1,6 @@
 <script>
-    import supabase from '$lib/db';
+    import Navbar from '$lib/Navbar.svelte';
+	import supabase from '$lib/db';
     import { page, session } from '$app/stores';
     import { browser } from '$app/env';
     import { goto } from '$app/navigation';
