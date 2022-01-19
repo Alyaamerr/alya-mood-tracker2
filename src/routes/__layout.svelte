@@ -31,4 +31,5 @@
     }
 
 </script>
+<Navbar />
 <slot />
